@@ -2,10 +2,10 @@ const React = require('react')
 const Default = require('./layouts/Default')
 
 function Show ({bread}) {
-    // Confirm we are getting our bread data in the terminal.
-    // console.log(bread.name)
-      return (
-        <Default>
+  // Confirm we are getting our bread data in the terminal.
+  // console.log(bread.name)
+    return (
+      <Default>
   <h3>{bread.name}</h3>
   <p>
     and it
@@ -20,8 +20,8 @@ function Show ({bread}) {
   <li><a href="/breads">Go home</a></li>
 </Default>
 
-      )
-  }
-  
+    )
+}
+
 
 module.exports = Show
